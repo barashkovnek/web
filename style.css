@@ -1,0 +1,611 @@
+body {
+    background-color: white;
+    /* overflow-x: hidden; */
+}
+
+.wrapper {
+    height: 744px;
+    min-width: 1600px;
+    /* width: 100%; */
+    background-image: url(./assets/bg-image.png);
+    /* background-size: cover; */
+}
+
+.top-menu {
+    position: relative;
+}
+
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 38.5px;
+    text-align: center;
+}
+
+.left-item {
+    float: left;
+}
+
+.right-item {
+    float: right;
+}
+
+.About {
+    color: white;
+    /* border-bottom: 1px solid white; */
+    margin-left: -65px;
+}
+
+.About:hover {
+    font-weight: bold;
+}
+
+.Syllabus {
+    position: relative;
+    left: -50px;
+}
+
+.Projects {
+    position: relative;
+    right: -74px;
+}
+
+.FAQ {
+    position: relative;
+    right: -36px;
+}
+
+.menu-main li a:hover {
+    text-decoration: underline;
+}
+
+.navbar-logo {
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    transform: translate(-50%);
+}
+
+.menu-main a {
+    text-decoration: none;
+    display: block;
+    padding: 0 59px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    color: white;
+    transition: .3s linear;
+    opacity: 0.8;
+    position: relative;
+    right: 0px;
+}
+
+.menu-main li {
+    float: none;
+    display: inline-block;
+}
+
+.h1 {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 181px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.5px;
+}
+
+.p2 {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 27px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button_ {
+    width: 184px;
+    height: 46px;
+    border: 1px solid #00AFDB;
+    background-color: #00AFDB;
+}
+
+.button span {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.button_:hover {
+    border: 1px solid #009CC2;
+    background-color: #009CC2;
+}
+
+.social {
+    display: flex;
+    margin-top: 182px;
+    padding: 0 760px;
+}
+
+.social a:nth-child(1) {
+    flex: 1 1 auto;
+    margin: 0 -45px;
+}
+
+.social a:nth-child(2) {
+    flex: auto;
+    margin: 0 75px;
+}
+
+.social a:nth-child(3) {
+    flex: 1 1 auto;
+    margin-left: -45px;
+}
+
+.social a:nth-child(4) {
+    flex: 1 1 auto;
+    margin-left: 30px;
+}
+
+.wrapper2 {
+    /*2 страница*/
+    height: 842px;
+    min-width: 1600px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.pharagraphs {
+    margin-bottom: 98px;
+    margin-left: 268px;
+}
+
+.onep {
+    color: #373737;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: -28px;
+}
+
+.twop {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    position: relative;
+    bottom: -50px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+    bottom: -52px;
+    left: -110px;
+}
+
+.button2_ {
+    width: 184px;
+    height: 46px;
+    border: 1px solid #00AFDB;
+    background-color: #00AFDB;
+}
+
+.button2 span {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.button2_:hover {
+    border: 1px solid #009CC2;
+    background-color: #009CC2;
+}
+
+.image {
+    position: relative;
+    right: -252px;
+    top: -9px;
+}
+
+.wrapper3 {
+    /*3 страница*/
+    height: 504px;
+    min-width: 1600px;
+    background-color: white;
+}
+
+.wrapper3_ {
+    background-color: #F5F6F7;
+    max-width: 1558px;
+    height: 504px;
+    position: relative;
+    left: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    margin-left: 177px;
+}
+
+.pharagraph2 {
+    text-align: center;
+}
+
+.first {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+    position: relative;
+    top: -34px;
+}
+
+.second {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    position: relative;
+    top: -20px;
+}
+
+.icon {
+    margin-bottom: 55px;
+}
+
+.center {
+    margin-left: 142px;
+    margin-bottom: 13px;
+}
+
+.right {
+    margin-bottom: 13px;
+    margin-left: 30px;
+}
+
+.arrow {
+    display: flex;
+    position: relative;
+    top: -160px;
+    right: -1222px;
+}
+
+.num {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #373737;
+}
+
+.oneslider {
+    position: relative;
+    left: -14px;
+}
+
+.twoslider {
+    position: relative;
+    right: -14px;
+}
+
+.oneslider a, .twoslider a:hover {
+    cursor: progress;
+}
+
+.wrapper4 {
+    min-width: 1600px;
+    height: 842px;
+    background-color: white;
+}
+
+.img {
+    display: flex;
+    margin-left: 269px;
+    position: relative;
+    top: 99px;
+}
+
+.first_2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    position: relative;
+    top: -55px;
+    left: 111px;
+}
+
+.second_2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    position: relative;
+    top: -31px;
+    left: 111px;
+}
+
+.button3 {
+    display: flex;
+    justify-content: center;
+}
+
+.button3_ {
+    width: 184px;
+    height: 46px;
+    border: 1px solid #00AFDB;
+    background-color: #00AFDB;
+}
+
+.button3 span {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.button3_:hover {
+    border: 1px solid #009CC2;
+    background-color: #009CC2;
+}
+
+.block {
+    margin-left: 28px;
+    margin-top: 256px;
+}
+
+.wrapper5 {
+    min-width: 1600px;
+    height: 598px;
+    background: url('./assets/pexels-christina-morillo-1181675\ 1.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parag {
+    position: relative;
+    top: -33px;
+    left: 21px;
+}
+
+.parag p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.input input {
+    height: 46px;
+    width: 340px;
+    position: relative;
+    left: -18px;
+    top: 16px;
+}
+
+.input button {
+    position: relative;
+    top: 36px;
+    left: -23px;
+    height: 52px;
+    width: 66px;
+    border: 1px solid #00AFDB;
+    background: #00AFDB url('./assets/fa-check.svg') no-repeat;
+    background-position: center;
+}
+
+.input button:hover {
+    background-color: #009CC2;
+    border: 1px solid #009CC2;
+}
+
+.wrapper6 {
+    max-width: 1600px;
+    height: 468px;
+    background-color: #FFFFFF;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.first_3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    position: relative;
+    top: -54px;
+}
+
+.second_3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    position: relative;
+    position: relative;
+    top: -31px;
+}
+
+.pharag_2 {
+    text-align: center;
+    position: relative;
+    left: 565px;
+}
+
+.App {
+    position: relative;
+    left: 592px;
+}
+
+.App span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.appstore, .android {
+    width: 188px;
+    height: 50px;
+    background: #00AFDB url('./assets/icon-apple.svg') 149px no-repeat;
+    border: 1px solid #00AFDB;
+    position: relative;
+    left: 5px;
+}
+
+.android {
+    background: #00AFDB url('./assets/icon-android.svg') 149px no-repeat;
+    position: relative;
+    left: 31px;
+}
+
+.span1 {
+    position: relative;
+    left: -29px;
+}
+
+.span2 {
+    position: relative;
+    left: -30px;
+}
+
+.appstore:hover {
+    background: url('./assets/iconforhover.svg') 127px no-repeat;
+    background-color: #00AFDB;
+}
+
+.android:hover {
+    background: url('./assets/iconfor2hover.svg') 128px no-repeat;
+    background-color: #00AFDB;
+}
+
+.wrapper7 {
+    min-width: 1600px;
+    height: 184px;
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.li ul {
+    display: flex;
+    position: relative;
+    top: 75px;
+    left: 160px;
+}
+
+.li ul li::after {
+    content: '|';
+    color: #4E4E4E;
+    position: relative;
+    left: 18px;
+}
+
+.li ul li:last-child::after {
+    display: none;
+}
+
+.li ul li:last-child {
+    position: relative;
+    left: 75px;
+}
+
+.li ul li:nth-child(2) {
+    position: relative;
+    left: 38px;
+}
+
+.li ul li a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.98;
+    text-decoration: none;
+}
+
+.logot {
+    position: relative;
+    top: 60px;
+    left: 4px;
+}
+
+.inform {
+    position: relative;
+    right: 160px;
+    top: 75px;
+}
+
+.inform ul li a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #818181;
+    text-decoration: none;
+}
+.li ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
